@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
             if (number)
                 textView.text = formatDecimal("${textView.text}6")
             else {
-                textView.text = "7"
+                textView.text = "6"
                 number = true
             }
         }
